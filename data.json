@@ -1,0 +1,1247 @@
+{
+  "sources": [
+    {
+      "id": "src-grona",
+      "title": "Grönatakhandboken – Växtbädd och Vegetation",
+      "publisher": "AB Svensk Byggtjänst",
+      "year": "2021",
+      "edition": "Andra utgåvan",
+      "isbn": "978-91-7917-072-1",
+      "type": "Kursmaterial",
+      "url": "",
+      "note": "Används för uppgifter om växtbäddar och vegetation på gröna tak. Kontrollera titelblad och sidangivelser mot originalet."
+    },
+    {
+      "id": "src-skud",
+      "title": "Svensk Kulturväxtdatabas (SKUD)",
+      "publisher": "SKUD / Blomsterlandet",
+      "type": "Extern källa",
+      "url": "https://skud.blomsterlandet.se/",
+      "note": "Nomenklaturreferens. Återanvänd inte databasposter utan att kontrollera villkor."
+    },
+    {
+      "id": "src-movium",
+      "title": "Movium Plantarum",
+      "publisher": "SLU Movium",
+      "type": "Extern källa",
+      "url": "https://plantarum.slu.se/",
+      "note": "Professionell växtdatabas. Använd som referens; kopiera inte skyddade texter eller bilder."
+    },
+    {
+      "id": "src-genbank",
+      "title": "SLU Nationella genbanken för trädgårdsväxter",
+      "publisher": "Sveriges lantbruksuniversitet",
+      "type": "Extern källa",
+      "url": "https://www.slu.se/nationellagenbanken/",
+      "note": "Referens för bevarade kulturväxter, sorter och kulturhistoria."
+    }
+  ],
+  "plants": [
+    {
+      "id": "p-forsythia",
+      "swedish": "Forsythia",
+      "latin": "Forsythia × intermedia",
+      "category": "Buskar",
+      "status": "needs_sources",
+      "intro": "Registerpost påbörjad. Odlingsuppgifter, sortvariationer och härdighet ska kompletteras med kontrollerade källor.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-paradisbuske",
+      "swedish": "Paradisbuske",
+      "latin": "Kolkwitzia amabilis",
+      "category": "Buskar",
+      "status": "needs_sources",
+      "intro": "Registerpost påbörjad. Höjd, bredd, blomning och beskärningsråd ska verifieras för svenskt odlingssammanhang.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-rosenskara",
+      "swedish": "Rosenskära",
+      "latin": "Cosmos bipinnatus",
+      "category": "Annueller",
+      "status": "needs_sources",
+      "intro": "Registerpost påbörjad. Såtid, groning, blomning och odlingsråd ska dokumenteras med källa.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-ringblomma",
+      "swedish": "Ringblomma",
+      "latin": "Calendula officinalis",
+      "category": "Annueller",
+      "status": "needs_sources",
+      "intro": "Registerpost påbörjad. Sådd, blomning, användning och självsådd ska kompletteras med källor.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-fingerborgsblomma",
+      "swedish": "Fingerborgsblomma",
+      "latin": "Digitalis purpurea",
+      "category": "Tvååriga",
+      "status": "needs_sources",
+      "intro": "Registerpost påbörjad. Livscykel, frösådd, ståndort och giftighet ska verifieras.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-tuvror",
+      "swedish": "Tuvrör",
+      "latin": "Calamagrostis × acutiflora",
+      "category": "Prydnadsgräs",
+      "status": "needs_sources",
+      "intro": "Registerpost påbörjad. Sorter, höjd, ståndort och vinterstruktur ska kompletteras.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-001",
+      "swedish": "Skogslönn",
+      "latin": "Acer platanoides",
+      "category": "Träd",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-002",
+      "swedish": "Vårtbjörk",
+      "latin": "Betula pendula",
+      "category": "Träd",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-003",
+      "swedish": "Glasbjörk",
+      "latin": "Betula pubescens",
+      "category": "Träd",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-004",
+      "swedish": "Rönn",
+      "latin": "Sorbus aucuparia",
+      "category": "Träd",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-005",
+      "swedish": "Hägg",
+      "latin": "Prunus padus",
+      "category": "Träd",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-006",
+      "swedish": "Fågelbär",
+      "latin": "Prunus avium",
+      "category": "Träd",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-007",
+      "swedish": "Hagtorn",
+      "latin": "Crataegus monogyna",
+      "category": "Träd",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-008",
+      "swedish": "Syren",
+      "latin": "Syringa vulgaris",
+      "category": "Buskar",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-009",
+      "swedish": "Rödvide",
+      "latin": "Salix purpurea",
+      "category": "Buskar",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-010",
+      "swedish": "Kornell",
+      "latin": "Cornus alba",
+      "category": "Buskar",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-011",
+      "swedish": "Svartaronia",
+      "latin": "Aronia melanocarpa",
+      "category": "Buskar",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-012",
+      "swedish": "Praktspirea",
+      "latin": "Spiraea japonica",
+      "category": "Buskar",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-013",
+      "swedish": "Ölandstok",
+      "latin": "Dasiphora fruticosa",
+      "category": "Buskar",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-014",
+      "swedish": "Rosenkvitten",
+      "latin": "Chaenomeles japonica",
+      "category": "Buskar",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-015",
+      "swedish": "Snöbär",
+      "latin": "Symphoricarpos albus",
+      "category": "Buskar",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-016",
+      "swedish": "Stäppsalvia",
+      "latin": "Salvia nemorosa",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-017",
+      "swedish": "Röd solhatt",
+      "latin": "Echinacea purpurea",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-018",
+      "swedish": "Rudbeckia",
+      "latin": "Rudbeckia fulgida",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-019",
+      "swedish": "Kärleksört",
+      "latin": "Hylotelephium telephium",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-020",
+      "swedish": "Näva",
+      "latin": "Geranium sanguineum",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-021",
+      "swedish": "Stjärnflocka",
+      "latin": "Astrantia major",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-022",
+      "swedish": "Daglilja",
+      "latin": "Hemerocallis fulva",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-023",
+      "swedish": "Rödblära",
+      "latin": "Silene dioica",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-024",
+      "swedish": "Backnejlika",
+      "latin": "Dianthus deltoides",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-025",
+      "swedish": "Trädgårdsiris",
+      "latin": "Iris germanica",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-026",
+      "swedish": "Praktlysing",
+      "latin": "Lysimachia punctata",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-027",
+      "swedish": "Flocknäva",
+      "latin": "Geranium macrorrhizum",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-028",
+      "swedish": "Luktpion",
+      "latin": "Paeonia lactiflora",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-029",
+      "swedish": "Jättedaggkåpa",
+      "latin": "Alchemilla mollis",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-030",
+      "swedish": "Jättetåtel",
+      "latin": "Molinia caerulea subsp. arundinacea",
+      "category": "Prydnadsgräs",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-032",
+      "swedish": "Glansmiskantus",
+      "latin": "Miscanthus sinensis",
+      "category": "Prydnadsgräs",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-033",
+      "swedish": "Blåtåtel",
+      "latin": "Molinia caerulea",
+      "category": "Prydnadsgräs",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-034",
+      "swedish": "Ängsgröe",
+      "latin": "Poa pratensis",
+      "category": "Prydnadsgräs",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-035",
+      "swedish": "Tuvsäv",
+      "latin": "Deschampsia cespitosa",
+      "category": "Prydnadsgräs",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-036",
+      "swedish": "Klematis",
+      "latin": "Clematis vitalba",
+      "category": "Klätterväxter",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-037",
+      "swedish": "Kaprifol",
+      "latin": "Lonicera periclymenum",
+      "category": "Klätterväxter",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-038",
+      "swedish": "Klätterhortensia",
+      "latin": "Hydrangea anomala subsp. petiolaris",
+      "category": "Klätterväxter",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-039",
+      "swedish": "Humle",
+      "latin": "Humulus lupulus",
+      "category": "Klätterväxter",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-040",
+      "swedish": "Tulpan",
+      "latin": "Tulipa gesneriana",
+      "category": "Lök- och knölväxter",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-041",
+      "swedish": "Påsklilja",
+      "latin": "Narcissus pseudonarcissus",
+      "category": "Lök- och knölväxter",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-042",
+      "swedish": "Krokus",
+      "latin": "Crocus vernus",
+      "category": "Lök- och knölväxter",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-043",
+      "swedish": "Allium",
+      "latin": "Allium giganteum",
+      "category": "Lök- och knölväxter",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-044",
+      "swedish": "Snödroppe",
+      "latin": "Galanthus nivalis",
+      "category": "Lök- och knölväxter",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-045",
+      "swedish": "Pärlhyacint",
+      "latin": "Muscari armeniacum",
+      "category": "Lök- och knölväxter",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-046",
+      "swedish": "Luktärt",
+      "latin": "Lathyrus odoratus",
+      "category": "Annueller",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-047",
+      "swedish": "Blåklint",
+      "latin": "Centaurea cyanus",
+      "category": "Annueller",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-048",
+      "swedish": "Vallmo",
+      "latin": "Papaver rhoeas",
+      "category": "Annueller",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-049",
+      "swedish": "Solros",
+      "latin": "Helianthus annuus",
+      "category": "Annueller",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-050",
+      "swedish": "Zinnia",
+      "latin": "Zinnia elegans",
+      "category": "Annueller",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-051",
+      "swedish": "Lejongap",
+      "latin": "Antirrhinum majus",
+      "category": "Annueller",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-052",
+      "swedish": "Fingerört",
+      "latin": "Potentilla erecta",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-053",
+      "swedish": "Backtimjan",
+      "latin": "Thymus serpyllum",
+      "category": "Halvbuskar",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-054",
+      "swedish": "Lavendel",
+      "latin": "Lavandula angustifolia",
+      "category": "Halvbuskar",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-055",
+      "swedish": "Rosmarin",
+      "latin": "Salvia rosmarinus",
+      "category": "Halvbuskar",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-056",
+      "swedish": "Ormbunke",
+      "latin": "Dryopteris filix-mas",
+      "category": "Ormbunkar",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-057",
+      "swedish": "Strutbräken",
+      "latin": "Matteuccia struthiopteris",
+      "category": "Ormbunkar",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-058",
+      "swedish": "Brunnäva",
+      "latin": "Geranium phaeum",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v4-059",
+      "swedish": "Höstsilverax",
+      "latin": "Actaea simplex",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Ny registerpost i Växtlighetsguide 4.0. Endast namn och preliminär växtgrupp är inlagda. Ståndort, härdighet, blomning, skötsel och övriga egenskaper måste verifieras innan publicering.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-060",
+      "swedish": "Hästkastanj",
+      "latin": "Aesculus hippocastanum",
+      "category": "Träd",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-061",
+      "swedish": "Bok",
+      "latin": "Fagus sylvatica",
+      "category": "Träd",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-062",
+      "swedish": "Ek",
+      "latin": "Quercus robur",
+      "category": "Träd",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-063",
+      "swedish": "Skogsek",
+      "latin": "Quercus petraea",
+      "category": "Träd",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-064",
+      "swedish": "Asp",
+      "latin": "Populus tremula",
+      "category": "Träd",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-065",
+      "swedish": "Sälg",
+      "latin": "Salix caprea",
+      "category": "Träd",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-066",
+      "swedish": "Lind",
+      "latin": "Tilia cordata",
+      "category": "Träd",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-067",
+      "swedish": "Oxel",
+      "latin": "Sorbus intermedia",
+      "category": "Träd",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-068",
+      "swedish": "Klibbal",
+      "latin": "Alnus glutinosa",
+      "category": "Träd",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-069",
+      "swedish": "Avenbok",
+      "latin": "Carpinus betulus",
+      "category": "Träd",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-070",
+      "swedish": "Hassel",
+      "latin": "Corylus avellana",
+      "category": "Buskar",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-071",
+      "swedish": "Häggmispel",
+      "latin": "Amelanchier lamarckii",
+      "category": "Buskar",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-072",
+      "swedish": "Fläder",
+      "latin": "Sambucus nigra",
+      "category": "Buskar",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-073",
+      "swedish": "Brudspirea",
+      "latin": "Spiraea × cinerea",
+      "category": "Buskar",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-074",
+      "swedish": "Vipphortensia",
+      "latin": "Hydrangea paniculata",
+      "category": "Buskar",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-075",
+      "swedish": "Trädgårdshortensia",
+      "latin": "Hydrangea macrophylla",
+      "category": "Buskar",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-076",
+      "swedish": "Rosenhallon",
+      "latin": "Rubus odoratus",
+      "category": "Buskar",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-077",
+      "swedish": "Mahonia",
+      "latin": "Mahonia aquifolium",
+      "category": "Buskar",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-078",
+      "swedish": "Buxbom",
+      "latin": "Buxus sempervirens",
+      "category": "Buskar",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-079",
+      "swedish": "Buddleja",
+      "latin": "Buddleja davidii",
+      "category": "Buskar",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-080",
+      "swedish": "Koreansk plymspirea",
+      "latin": "Aruncus dioicus",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-081",
+      "swedish": "Solbrud",
+      "latin": "Helenium autumnale",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-082",
+      "swedish": "Höstflox",
+      "latin": "Phlox paniculata",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-083",
+      "swedish": "Trädgårdsnäva",
+      "latin": "Geranium × magnificum",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-084",
+      "swedish": "Blodnäva",
+      "latin": "Geranium sanguineum",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-085",
+      "swedish": "Kantnepeta",
+      "latin": "Nepeta × faassenii",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-086",
+      "swedish": "Rysk martorn",
+      "latin": "Eryngium planum",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-087",
+      "swedish": "Prydnadsgräs: Blåsvingel",
+      "latin": "Festuca glauca",
+      "category": "Prydnadsgräs",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-088",
+      "swedish": "Tuvtåtel",
+      "latin": "Deschampsia cespitosa",
+      "category": "Prydnadsgräs",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-089",
+      "swedish": "Fjäderborstgräs",
+      "latin": "Pennisetum alopecuroides",
+      "category": "Prydnadsgräs",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-090",
+      "swedish": "Rörflen",
+      "latin": "Phalaris arundinacea",
+      "category": "Prydnadsgräs",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-091",
+      "swedish": "Lungört",
+      "latin": "Pulmonaria officinalis",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-092",
+      "swedish": "Bergenia",
+      "latin": "Bergenia cordifolia",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-093",
+      "swedish": "Funkia",
+      "latin": "Hosta sieboldiana",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-094",
+      "swedish": "Astilbe",
+      "latin": "Astilbe × arendsii",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-095",
+      "swedish": "Julros",
+      "latin": "Helleborus niger",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-096",
+      "swedish": "Vårkrage",
+      "latin": "Doronicum orientale",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-097",
+      "swedish": "Praktveronika",
+      "latin": "Veronica spicata",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-098",
+      "swedish": "Blåsippa",
+      "latin": "Hepatica nobilis",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-099",
+      "swedish": "Vitsippa",
+      "latin": "Anemone nemorosa",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-100",
+      "swedish": "Kungsängslilja",
+      "latin": "Fritillaria meleagris",
+      "category": "Lök- och knölväxter",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-101",
+      "swedish": "Kejsarkrona",
+      "latin": "Fritillaria imperialis",
+      "category": "Lök- och knölväxter",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-102",
+      "swedish": "Rysk blåstjärna",
+      "latin": "Scilla siberica",
+      "category": "Lök- och knölväxter",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-103",
+      "swedish": "Prydnadslök",
+      "latin": "Allium aflatunense",
+      "category": "Lök- och knölväxter",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-104",
+      "swedish": "Dahlia",
+      "latin": "Dahlia × pinnata",
+      "category": "Knölväxter",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-105",
+      "swedish": "Gladiolus",
+      "latin": "Gladiolus × hortulanus",
+      "category": "Knölväxter",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-106",
+      "swedish": "Jätteverbena",
+      "latin": "Verbena bonariensis",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-107",
+      "swedish": "Blomstertobak",
+      "latin": "Nicotiana alata",
+      "category": "Annueller",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-108",
+      "swedish": "Tagetes",
+      "latin": "Tagetes patula",
+      "category": "Annueller",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-109",
+      "swedish": "Sommarslöja",
+      "latin": "Gypsophila elegans",
+      "category": "Annueller",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-110",
+      "swedish": "Praktmalva",
+      "latin": "Lavatera trimestris",
+      "category": "Annueller",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-111",
+      "swedish": "Gullviva",
+      "latin": "Primula veris",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-112",
+      "swedish": "Ängsvädd",
+      "latin": "Succisa pratensis",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-113",
+      "swedish": "Rödklöver",
+      "latin": "Trifolium pratense",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-114",
+      "swedish": "Blåklocka",
+      "latin": "Campanula rotundifolia",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    },
+    {
+      "id": "p-v41-115",
+      "swedish": "Kärleksört: stor kärleksört",
+      "latin": "Hylotelephium spectabile",
+      "category": "Perenner",
+      "status": "needs_sources",
+      "intro": "Prioriterad registerkandidat i version 4.1. Taxonomi och samtliga växtfakta ska verifieras innan posten kan användas som odlingsunderlag.",
+      "sources": [],
+      "claims": []
+    }
+  ],
+  "meta": {
+    "schemaVersion": "4.1",
+    "cataloguePurpose": "Prioriterad arbetskatalog för svenska planteringssammanhang",
+    "claimPolicy": "Varje sakuppgift ska lagras som ett separat påstående med minst en källa som uttryckligen stöder påståendet.",
+    "created": "2026-11-03"
+  }
+}
