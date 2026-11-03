@@ -1,0 +1,95 @@
+{
+  "sources": [
+    {
+      "id": "src-grona",
+      "title": "Grönatakhandboken – Växtbädd och Vegetation",
+      "publisher": "AB Svensk Byggtjänst",
+      "year": "2021",
+      "edition": "Andra utgåvan",
+      "isbn": "978-91-7917-072-1",
+      "type": "Kursmaterial",
+      "url": "",
+      "note": "Används för uppgifter om växtbäddar och vegetation på gröna tak. Kontrollera titelblad och sidangivelser mot originalet."
+    },
+    {
+      "id": "src-skud",
+      "title": "Svensk Kulturväxtdatabas (SKUD)",
+      "publisher": "SKUD / Blomsterlandet",
+      "type": "Extern källa",
+      "url": "https://skud.blomsterlandet.se/",
+      "note": "Nomenklaturreferens. Återanvänd inte databasposter utan att kontrollera villkor."
+    },
+    {
+      "id": "src-movium",
+      "title": "Movium Plantarum",
+      "publisher": "SLU Movium",
+      "type": "Extern källa",
+      "url": "https://plantarum.slu.se/",
+      "note": "Professionell växtdatabas. Använd som referens; kopiera inte skyddade texter eller bilder."
+    },
+    {
+      "id": "src-genbank",
+      "title": "SLU Nationella genbanken för trädgårdsväxter",
+      "publisher": "Sveriges lantbruksuniversitet",
+      "type": "Extern källa",
+      "url": "https://www.slu.se/nationellagenbanken/",
+      "note": "Referens för bevarade kulturväxter, sorter och kulturhistoria."
+    }
+  ],
+  "plants": [
+    {
+      "id": "p-forsythia",
+      "swedish": "Forsythia",
+      "latin": "Forsythia × intermedia",
+      "category": "Buskar",
+      "status": "needs_sources",
+      "intro": "Registerpost påbörjad. Odlingsuppgifter, sortvariationer och härdighet ska kompletteras med kontrollerade källor.",
+      "sources": []
+    },
+    {
+      "id": "p-paradisbuske",
+      "swedish": "Paradisbuske",
+      "latin": "Kolkwitzia amabilis",
+      "category": "Buskar",
+      "status": "needs_sources",
+      "intro": "Registerpost påbörjad. Höjd, bredd, blomning och beskärningsråd ska verifieras för svenskt odlingssammanhang.",
+      "sources": []
+    },
+    {
+      "id": "p-rosenskara",
+      "swedish": "Rosenskära",
+      "latin": "Cosmos bipinnatus",
+      "category": "Annueller",
+      "status": "needs_sources",
+      "intro": "Registerpost påbörjad. Såtid, groning, blomning och odlingsråd ska dokumenteras med källa.",
+      "sources": []
+    },
+    {
+      "id": "p-ringblomma",
+      "swedish": "Ringblomma",
+      "latin": "Calendula officinalis",
+      "category": "Annueller",
+      "status": "needs_sources",
+      "intro": "Registerpost påbörjad. Sådd, blomning, användning och självsådd ska kompletteras med källor.",
+      "sources": []
+    },
+    {
+      "id": "p-fingerborgsblomma",
+      "swedish": "Fingerborgsblomma",
+      "latin": "Digitalis purpurea",
+      "category": "Tvååriga",
+      "status": "needs_sources",
+      "intro": "Registerpost påbörjad. Livscykel, frösådd, ståndort och giftighet ska verifieras.",
+      "sources": []
+    },
+    {
+      "id": "p-tuvror",
+      "swedish": "Tuvrör",
+      "latin": "Calamagrostis × acutiflora",
+      "category": "Prydnadsgräs",
+      "status": "needs_sources",
+      "intro": "Registerpost påbörjad. Sorter, höjd, ståndort och vinterstruktur ska kompletteras.",
+      "sources": []
+    }
+  ]
+}
